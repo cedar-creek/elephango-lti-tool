@@ -1,0 +1,24 @@
+{
+    "http://imsglobal.org": {
+        "client_id": "12345",
+        "auth_login_url": "https://lti-ri.imsglobal.org/platforms/2321/authorizations/new",
+        "auth_token_url": "https://lti-ri.imsglobal.org/platforms/2321/access_tokens",
+        "key_set_url": "https://lti-ri.imsglobal.org/platforms/2321/platform_keys/2148.json",
+        "login_hint": "dfdsfasdf",
+        "private_key_file": "/private.key",
+        "deployment": [
+            "1"
+        ]
+    },
+    "http://lti-tool.elephango.test": {
+        "client_id": "d42df408-70f5-4b60-8274-6c98d3b9468d",
+        "auth_login_url": "http://lti-tool.elephango.test/login.php",
+        "auth_token_url": "http://lti-tool.elephango.test/token.php",
+        "key_set_url": "http://lti-tool.elephango.test/jwks.php",
+        "private_key_file": "/private.key",
+        "kid": "58f36e10-c1c1-4df0-af8b-85c857d1634f",
+        "deployment": [
+            "8c49a5fa-f955-405e-865f-3d7e959e809f"
+        ]
+    }
+}

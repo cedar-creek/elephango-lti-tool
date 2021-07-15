@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'fproject/php-jwt' => array(
+            'pretty_version' => '4.0.5',
+            'version' => '4.0.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../fproject/php-jwt',
+            'aliases' => array(),
+            'reference' => '91047b202bbe7d966e8fce67ab16ebca8bdcb6b7',
+            'dev_requirement' => false,
+        ),
+        'imsglobal/lti-1p3-tool' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../imsglobal/lti-1p3-tool',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '3a192de99f3783d76caea462b0d04db28569c123',
+            'dev_requirement' => false,
+        ),
+        'phpseclib/phpseclib' => array(
+            'pretty_version' => '2.0.32',
+            'version' => '2.0.32.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpseclib/phpseclib',
+            'aliases' => array(),
+            'reference' => 'f5c4c19880d45d0be3e7d24ae8ac434844a898cd',
+            'dev_requirement' => false,
+        ),
+    ),
+);
