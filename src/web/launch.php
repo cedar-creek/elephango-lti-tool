@@ -23,3 +23,22 @@ if ($launch->is_deep_link_launch()) {
 
 
 <iframe width="100%" height="100%" src="https://dev.elephango.com/ltisample.cfm?fromBLC=1&sid=4222270&lcid=12701&lsec=8FC81FD7630F52ACA6381FF6DF0F6CEC"></iframe>
+
+
+<script>
+let launch_id = '<?= $launch->get_launch_id() ?>';
+let score =  34;
+let time_taken = 43;
+let recording_data = "test";
+var submitScore = function() {
+    //var time_taken = Math.floor(Date.now() / 1000) - start_time;
+    var xhttp = new XMLHttpRequest();
+   // xhttp.addEventListener("load", getScoreBoard);
+    xhttp.open("POST", "api/score.php" , false);
+    xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhttp.send("launch_id=" + launch_id + "&score=" + score + "&time=" + time_taken + "&comment=" + recording_data);
+}
+
+submitScore();
+
+</script>
